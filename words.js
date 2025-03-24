@@ -908,7 +908,7 @@ export const WORDS = [
     'firms',
     'skies',
 'crane',
-'sloth','dumpy'
+'sloth','dumpy',
 'carat',
 'mends',
     'adieu'];

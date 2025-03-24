@@ -252,6 +252,14 @@ document.getElementById("new-game-button").addEventListener("click", resetGame);
 
 document.getElementById("dark-mode-toggle").addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
+  const toggleButton = document.getElementById("dark-mode-toggle");
+  if (document.body.classList.contains("dark-mode")) {
+    toggleButton.classList.remove("icon-moon");
+    toggleButton.classList.add("icon-sun");
+  } else {
+    toggleButton.classList.remove("icon-sun");
+    toggleButton.classList.add("icon-moon");
+  }
 });
 
 initBoard();

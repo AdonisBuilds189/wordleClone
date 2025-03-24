@@ -909,5 +909,6 @@ export const WORDS = [
     'skies',
 'crane',
 'sloth','dumpy'
-'carat'];
+'carat',
+'mends'];
     
